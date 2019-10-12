@@ -1,0 +1,490 @@
+body{
+    margin: 0px;
+    padding:0px;
+    overflow-x:hidden; 
+}
+/*-------------------Header Design------------------------------------------------------------------*/
+header{
+    width:100%;
+    height:120px;
+    background:white;
+    position: relative;
+    border-bottom:1px solid #6ac1fa;
+}
+header .top{
+    width:100%;
+    height:30px;
+    background:#6ac1fa;
+    position:relative;
+}
+.top ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top:-15px;
+    right:35px;
+
+}
+.top ul li{
+    margin-left:5px;
+    background: white;
+    width:17px;
+    position: relative;
+    top:3px;
+    text-align: center;
+    font-size: 12px;
+    
+    border:1px solid black;
+}
+.top ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:700;
+    font-family: sans-serif;
+    line-height: 8px;
+}
+.top .homeButton{
+    position: absolute;
+    left:45px;
+    top:50%;
+    transform:translateY(-50%);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    background:white;
+    color:#dd0b0b;
+    padding:6px 10px;
+    text-align: center;
+    border-radius:2px;
+}
+.logoContainer .left img{
+    width:73px;
+    position: absolute;
+    height:auto;
+    left:11%;
+}
+.logoContainer .middle img{
+    width:40px;
+    height:70px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+.logoContainer .right img{
+    width:95px;
+    position: absolute;
+    height:auto;
+    right:6%;
+}
+.tag{
+    position:absolute;
+    bottom:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-family: sans-serif;
+    font-size:12px;
+    margin-bottom: 5px;
+}
+/*------------------------------Contents Design-------------------------------------------------------------*/
+.container{
+    position: absolute;
+    width:100vw;
+    height:450px;
+    background:white;
+    display: flex;
+    padding-top:10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.banner{
+    border:1px solid #dddbdb;
+    border-radius:3px;
+    margin-bottom:10px;
+}
+.banner1{
+    position: relative;
+    background:white;
+    width:25vw;
+    max-width:100%;
+    min-width:200px;
+    height:440px;
+}
+.banner2{
+    left:-10px;
+    background:white;
+    width:42vw;
+    max-width:500px;
+    min-width:200px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.banner3{
+    position: relative;
+    right:20px;
+    background:white;
+    width:25vw;
+    max-width:350px;
+    min-width:200px;
+}
+.banner1 ul{
+    list-style: none;
+    position: absolute;
+    width:95%;
+    top:-15px;
+    left:0px;
+}
+.banner1 ul li{
+    background:#6ac1fa;
+    margin:6px;
+    width:100%;
+    margin-left:-33px; 
+    padding:4px 0px;   
+}
+.banner1 ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:12px;
+    font-family: sans-serif;
+    font-weight:700;
+    position: relative;
+    left:5px;
+}
+.banner1 .contact{
+    position: absolute;
+    bottom:128px;
+    width:100%;
+    color: #4e4c4c;
+    background:transparent;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.mob1{
+   margin-left:20px;
+   text-decoration: none;
+}
+.mob2{
+    margin-left:75px;
+ }
+ .mob3{
+    margin-left:20px;
+}
+.mob4{
+    font-size: 10px;
+    position: relative;
+    top:-10px;
+    color:black;
+    margin-left:30px;
+    font-weight: 700;
+}
+li.lastChild{
+    position: relative;
+    top:295px;
+    width:20px;
+}
+.helpDesk{
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+    color:#4e4c4c;
+}
+.helpDesk img{
+    width:70px;
+    position: absolute;
+    bottom:0px;
+    left:10px;
+}
+.helpDesk p{
+    position: relative;
+    left:80px;
+    font-size: 14px;
+    margin-bottom:-10px;
+}
+.heading{
+    width:100%;
+    text-align:center;
+}
+
+.menu{
+    width:20%;
+    min-width: 80px;
+    height:150px;
+    margin:10px;
+    background:white;
+    position: relative;
+    top:-20px;
+
+}
+.menu span{
+    background:#22a9df;
+    padding:13px 19px;
+    border-radius:50%;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.menu h4{
+    font-size:11px;
+    position: absolute;
+    top:30%;
+    font-weight: 100;
+    left:10px;
+    text-align:center;
+}
+.menu p{
+    font-size:10px;
+    position: absolute;
+    top:50%;
+    left:-15px;
+    width:120px;
+    font-weight: 100;
+    text-align: center;
+}
+.menu img{
+    position:absolute;
+    width:30px;
+    right:-20px;
+    top:10%;
+}
+.heading h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.advisory{
+    margin-top:-80px;
+    padding:15px;
+    z-index:1;
+}
+.advisory h3{
+    font-family: sans-serif;
+    color:rgb(199, 26, 26);
+    font-weight: 100;
+    margin-left:15px;
+}
+.advisory p{
+    margin-top:-15px;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 800;
+}
+.menu img{
+    position:absolute;
+    width:30px;
+    right:-20px;
+    top:10%;
+}
+p.last{
+    font-size:13px;
+    margin-top:-25px;
+}
+.advisory a{
+    text-decoration: none;
+    color:#df0a0a;
+
+}
+.banner2 ol{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10px;
+    margin-top:-30px;
+    justify-content: space-around;
+}
+.banner2 li{
+    width:50%;
+    height:25px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.banner2 ol a{
+    text-decoration: none;
+    color:black;
+}
+.banner3 .para p{
+    font-size:10px;
+    line-height: 16px;
+    color:#6b6a6a;
+    font-family: sans-serif;
+}
+.para{
+    padding:10px;
+}
+.banner3 ul{
+    margin-top:-10px;
+}
+.banner3 ul li.headTag{
+    list-style: none;
+    margin-left:-20px;
+    font-size:12px;
+    line-height: 16px;
+    color:#000;
+    font-family: sans-serif;
+    font-weight: 700;
+    background: #6ac1fa;
+    position: relative;
+    right:11px;
+    padding:6px 5px;
+}
+.banner3 ul li{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.banner3 a{
+    text-decoration: none;
+    color:black;
+}
+.flexDiv{
+    width:100%;
+    display:flex;
+    background: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.flexDiv div{
+    width:150px;
+    background: linear-gradient(to bottom,#c5c3c3,rgb(243, 243, 243));
+    height:87px;
+    font-size: 10px;
+    text-align: center;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius:5px;
+    border:1px solid #adadad;
+    margin-bottom: 10px;
+    transition: .3s ease;
+}
+.flexDiv h3{
+    margin-top:5px;
+}
+.flexDiv a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+}
+.flexDiv img{
+    width:30px;
+}
+.flexDiv div:hover{
+    transform: scale(1.2);
+}
+.techInfo{
+    width:100vw;
+    background:#6ac1fa;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+    padding:0px 55px;
+}
+.techInfo span{
+    font-weight:bolder;
+}
+.nearFooter{
+    width:100vw;
+    display:flex;
+    background:white;
+}
+.nearFooter div{
+    width:20vw;
+    text-align:center;
+}
+.nearFooter div img{
+    width:8vw;
+    min-width:45px;
+}
+footer{
+    background:#6ac1fa;
+    width:100%;
+    display: flex;
+    position: relative;
+    bottom:0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    font-size:10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/*----------------Responsible Code----------------------*/
+@media screen and (max-width:980px){
+    div.banner{
+        min-width:85%;
+    }
+
+    .menu h4{
+        font-size:11px;
+        position: absolute;
+        top:30%;
+        font-weight:100;
+        left:30%;
+    }
+    .menu p{
+        font-size:10px;
+        position: absolute;
+        top:50%;
+        left:15px;
+        width:120px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .menu img{
+       display: none;
+    }
+   
+    .advisory{
+        margin-top:-40px;
+    }
+    .banner2 ol{
+        margin-top: 0px;
+    }
+    .banner3,.banner2{
+        left:0px;
+    }
+    .helpDesk img{
+        width:90px;
+        bottom:10px;
+    }
+    .helpDesk p{
+        bottom:10px;
+        left:120px;
+    }
+   
+}
+@media screen and (max-width:550px){
+   
+    footer div{
+        width:100%;
+    }
+    .menu h4{
+        left:15px;
+    }
+    .menu p{
+        left:-15px;
+    }
+    .banner2 ol li
+    {
+        margin-right:10px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .flexDiv div
+    {
+        width:85vw;
+    }  
+}
